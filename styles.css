@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primario:#c46137;
+    --color-secundario:#ff7336;
+    --fuente-secundaria: "Marcellus";
+    --fuente-montserrat: "Montserrat";
+    --fuente-bodoni: "Libre Bodoni";
+    --fuente-lexend:"Lexend Mega";
+    --fuente-bodoni-italic: "Libre Bodoni";
+}
+
+/*COMIENZA NAV */
+.movement-nav{
+    font-size: 2rem;
+    color: var(--color-primario);
+    font-family: var(--fuente-montserrat);
+}
+.tamanio-nav{
+    font-size: 1.5rem;
+    color: white;
+    padding-right: 1rem;
+    font-family: var(--fuente-montserrat);
+}
+.color-hamurger{
+    color: white;
+
+}
+
+.tamanio-nav a{
+    color: azure;
+}
+.tamanio-nav a:hover{
+    color: var(--color-secundario);
+    border-bottom: solid 2px var(--color-primario);
+}
+
+.color-movement-nav{
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: var(--fuente-lexend);
+    font-weight: 800;
+    padding-left: 1rem;
+}
+
+/*TERMINA NAV*/
+
+/*COMIENZA SECCION HOME*/
+.body-bg{
+    background-color: #000000;
+}
+.contenedor{
+    background-image: url(img/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    
+}
+.contenedor p{
+    color: var(--color-primario);
+    font-family:var(--fuente-montserrat);
+    font-size: 2rem;  
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-img{
+    position: static;
+
+}
+.contenedor h1{
+    font-size: 9rem;
+    color: var(--color-primario);
+    font-family: var(--fuente-lexend);
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+
+
+.contenedor-presentacion{
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    color: var(--color-primario);
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
+    gap: 3rem;
+}
+
+
+.contenedor-presentacion img{
+    width: 50%;
+    border-radius: 5px;
+    height: 100vh;
+
+}
+
+
+
+
+
+.contenedor-fotos{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+.img1{
+    border-radius: 10px;
+}
+
+
+.contenedor-fotos div:first-child{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-fotos div img:first-child{
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    padding-left: 4rem;
+}
+
+.contenedor-fotos div img:nth-child(2){
+    width: 60vh;
+    height: 100%;
+}
+
+/*TERMINA SECCION HOME*/
+
+
+/*COMIENZA SERVICIOS*/
+
+.bg-servicios{
+    background-image: url(img/img-bg-servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+.h1-servicios{
+    color:  white;
+    justify-content: center;
+    font-family: var(--fuente-bodoni);
+    font-style: italic;
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    font-weight: 100;
+}
+
+.h1-servicios h1{
+    font-size: 10rem;
+}
+
+
+.section-text{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fuente-montserrat);
+    padding-top: 3rem;
+    gap: 2rem;
+}
+
+.section-text ul li{
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.section-text p{
+    font-size: 2rem;
+}
+
+.section-text div{
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-top: auto;
+    padding-right: 2rem;
+}
+
+/* hasta aca es el h1 y los textos a los costados*/
+
+/*IMPACTA Y TEXTO DE MARCA*/
+.div-impacta{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 5rem;
+}
+
+.div-impacta h2{
+    font-size: 8rem;
+    font-family: var(--fuente-lexend);
+    color: var(--color-secundario);
+    padding-right: 10rem;
+    font-weight: 800;
+    padding-bottom: 0;
+}
+
+.div-marca{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color: white;
+    font-family: var(--fuente-montserrat);
+    font-size: 2.5rem;
+    padding-right: 9rem;
+    font-weight: 1000;
+}
+
+/*CIERRA IMPACTA*/
+
+/*comienza parte de listado de servicios*/
+.fuente-servicios{
+    font-family: var(--fuente-bodoni);
+    font-style: italic;
+    font-weight: 50;
+}
+
+
+.section-text-left{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 2rem;
+    flex-direction: column;
+}
+
+
+.section-text-left p{
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
+    color: white;
+}
+
+.mayus{
+    text-transform: uppercase;
+}
+
+
+
+.section-tipos-servicios{
+    color: var(--color-secundario);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 6rem;
+}
+
+.section-tipos-servicios h2{
+    font-size: 3rem;
+    font-family: var(--fuente-bodoni);
+    font-weight: 800;
+}
+
+
+/*aca termina */
+
+
+/*estilos de textos de debajo de las imagenes de servicios*/
+.text-section{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+    padding-left: 2rem;
+    font-family: var(--fuente-montserrat);
+}
+
+.text-section ul li{
+list-style-type: none;
+}
+
+/*aca termina */
+
+
+/*estilos de las imagenes de servicios*/
+.img-servicios{
+    display: flex;
+    gap: 2rem;
+    padding-left: 6rem;
+    padding-bottom: 0.5rem;
+}
+
+.img-servicios img{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+/*cierra*/
+
+
+/*desde abajo de las fotos hasta fin de servicios*/
+.section-bg{
+    background-color: #000000;
+}
+.creacion-contenido{
+    display: flex;
+    justify-content: end;
+    padding: 5rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+    gap: 1rem;
+    font-family: var(--fuente-bodoni);
+    align-items: center;
+}
+
+.creacion-contenido h3{
+    color: white;
+    font-size: 8rem;
+}
+.creacion-contenido h4{
+    color: white;
+    font-size: 4rem;
+}
+
+.creacion-contenido-parrafo{
+    padding: 2rem;
+    display: flex;
+    color: var(--color-secundario);
+    font-size: 2rem;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.secction-h2-sv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.secction-h2-sv h2{
+    color: white;
+    font-size: 6rem;
+    font-family: var(--fuente-bodoni);
+
+}
+
+.acordeon-conenido{
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
+}
+
+.h2-acordeon{
+    gap: 2rem;
+}
+
+.padding-acordeon{
+    padding: 4rem;
+}
+
+/*desde abajo de las fotos hasta fin de servicios*/
+
+
+
+
+
+
+/*CONOCENOS*/
+.section-conocenos{
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.section-conocenos h1{
+    font-size: 8rem;
+    font-family: var(--fuente-bodoni);
+
+}
+
+.section-conocenos p{
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+}
+
+
+
+/*cierra conocemos*/
+
+/*BOTON CONTRATANOS*/
+.btn-contratanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.btn-contratanos button a{
+    background-color: var(--color-primario);
+    color: white;
+    font-family: var(--fuente-montserrat);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/*BOTON CONTRATANOS*/
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.footer div a{
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: var(--fuente-montserrat);
+    gap: 10px;
+}
+
+.footer div{
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: var(--fuente-montserrat);
+    gap: 10px;
+
+}
+
+
+.section-contacto-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 10px;
+}
+
+.section-contacto-h1 div h1{
+    font-size: 6rem;
+    font-family: var(--fuente-bodoni);
+
+}
+
+.section-contacto-h1 div p{
+    font-size: 3rem;
+    font-family: var(--fuente-montserrat);
+
+}
+
+
+
+
+
+.contacto img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.form-section{
+    flex-direction: column;
+    padding: 5rem;
+    gap: 3rem;
+
+
+}
+
+.form-section label{
+    color: white;
+    font-size: 1.5rem;
+    font-family: var(--fuente-montserrat);
+
+
+}
+
+.form-section-input{
+    width: 70vh;
+    height: 30%;
+    border: none;
+    border-bottom: solid 5px white;
+    background-color: #000000;
+    color: white;
+}
+
+
+.enviar-contacto{
+    color: white;
+    background-color: #c46137;
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
+    border-radius: 10px;
+    border: solid 5px var(--color-primario) ;
+    border-color: var(--color-primario);
+}
+.enviar-contacto:hover{
+    background-color: black;
+    color: var(--color-primario);
+    transition: ease ease-in;
+}
+
+
+
+.p-contacto{
+    padding-top: 4rem;
+    font-size: 3rem;
+    color: var(--color-primario);
+    font-family: var(--fuente-montserrat);
+    flex-direction: column;
+    gap: 4rem;
+
+
+}
+
+
+.a-servicios{
+    text-decoration: none;
+    color: var(--color-primario);
+}
+
+
+/* MEDIA QUERYS */
+
+@media (max-width: 1024px){
+
+    .contenedor{
+        height: 70vh;
+    
+        
+    }
+    .contenedor p{
+        font-size: 1.5rem;
+    }
+    
+    .contenedor h1{
+        font-size: 6rem;
+    }
+    
+    
+    
+    .contenedor-presentacion{
+        font-size: 1.5rem;
+        flex-direction: column;
+        
+    }
+    
+    
+    .contenedor-presentacion img{
+        width: 80%;
+        border-radius: 5px;
+        height: 70vh;
+    
+    }
+    
+    
+    
+    .contenedor-fotos{
+        flex-direction: column;
+        padding-left: 9rem;
+        
+    }
+    
+    .contenedor-fotos div img:first-child{
+        padding: 2rem;
+        width: 80%;
+    }
+    
+
+    /*COMIENZA CONOCENOS*/
+    .section-conocenos p{
+        font-size: 1rem;
+        font-family: var(--fuente-montserrat);
+    }
+    /*TERMINA CONOCENOS*/
+
+    /*COMIENZA SERVICIOS*/
+    .bg-servicios{
+        background-position: center;
+        
+    }
+    .h1-servicios h1{
+        font-size: 7rem;
+    }
+
+    .section-text{
+        flex-direction: column;
+    }
+    
+    .section-text ul li{
+        list-style-type: none;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+    .section-text p{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+    .section-text div{
+        padding-top: 4rem;
+        font-weight: 900;
+    }
+
+    .div-impacta{
+        padding-right: 0.5rem;
+    }
+    .div-impacta h2{
+        font-size: 7rem;
+    }
+
+    .section-tipos-servicios{
+        justify-content: space-evenly;
+        padding: 3rem;
+    }
+    
+    .section-tipos-servicios h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .img-servicios{
+        padding-left: 2rem;
+    }
+    
+    .img-servicios img{
+        width: 30%;
+        height: 100%;
+        border-radius: 5px;
+    }
+
+
+    .creacion-contenido{
+        padding-right: 7rem;
+        padding-left: 7rem;
+        gap: 0.5rem;
+    }
+    
+    .creacion-contenido h3{
+        font-size: 6rem;
+    }
+    .creacion-contenido h4{
+        color: white;
+        font-size: 3rem;
+    }
+
+    .creacion-contenido-parrafo{
+        font-size: 2rem;
+        align-items: center;
+    }
+
+    .text-section{
+        display: flex;
+        align-items: start;
+        font-size: 1.5rem;
+        color: white;
+        padding-left: 2rem;
+    }
+    .acordeon-conenido{
+        font-size: 1.5rem;
+    }
+    /*TERMINA SERVICIOS*/
+
+    /*COMIENZA CONTACTO*/
+    .section-contacto-h1{
+        padding-left: 2rem;
+    
+    }
+    
+    .section-contacto-h1 div h1{
+        font-size: 6rem;
+    }
+    
+    .section-contacto-h1 div p{
+        font-size: 2.5rem;
+    }
+
+    .contacto img{
+        position: hidden;
+    }
+    
+    .form-section{
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    
+    
+    }
+    
+    .form-section label{
+        font-size: 1.5rem;
+    }
+    
+    .form-section-input{
+        width: 50vh;
+        height: 3rem;
+        border: none;
+        border-bottom: solid 5px white;
+        background-color: #000000;
+        color: white;
+    }
+
+    .enviar-contacto{
+        background-color: #c46137;
+        font-size: 1.5rem;
+        padding-right: 4rem;
+        border-color: var(--color-primario);
+    }
+
+    .enviar-contacto:hover{
+        border: solid 2px --color-secundario;
+    }
+    .p-contacto{
+        padding-top: 1rem;
+        font-size: 2rem;
+        gap: 4rem;
+    
+    
+    }
+    .contacto{
+        display: none;
+    }
+
+    .p-contacto img{
+        padding-right: 0rem;
+        width: 100%;
+    }
+
+
+    /*TERMINA CONTACTO*/
+    .nav-item-center{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width: 420px){
+
+    /*Comienza home*/
+    .contenedor{
+        height: 60vh;
+    
+        
+    }
+    .contenedor p{
+        font-size: 1rem;
+    }
+    
+    .contenedor h1{
+        font-size: 2.5rem;
+    }
+    
+    
+    
+    .contenedor-presentacion{
+        font-size: 1.5rem;
+        flex-direction: column;
+        padding-left: 0.5rem;
+        
+    }
+
+    .contenedor-presentacion p{
+        padding-left: 2rem;
+        
+    }
+    
+    
+    .contenedor-presentacion img{
+        width: 90%;
+        padding-left: 0rem;
+        height: 50vh;
+    
+    }
+    
+    
+    
+    .contenedor-fotos{
+        flex-direction: column;
+        padding-left: 2rem;
+        
+    }
+    
+    .contenedor-fotos div img:first-child{
+        padding: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .btn-contratanos{
+        padding: 1rem;
+    }
+    
+    .btn-contratanos button a{
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .footer{
+        justify-content: center;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    /*TERMINA HOME*/
+    /*comienza footer*/
+
+    .footer div a{
+        font-size: 1rem;
+        
+    }
+    
+    .footer div{
+        font-size: 0.85rem;
+        
+    
+    }
+
+    /*termina footer*/
+    /*COMIENZA CONOCENOS*/
+
+    .section-conocenos{
+        padding: 1.5rem;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+    .section-conocenos h1{
+        font-size: 5rem;
+    
+    }
+    .section-conocenos p{
+        font-size: 1rem;
+    }
+    /*TERMINA CONOCENOS*/
+
+    /*COMIENZA SERVICIOS*/
+
+    .h1-servicios h1{
+        font-size: 2.5rem;
+    }
+    .section-text ul li{
+        font-size: 1rem;
+        font-weight: 900;
+
+    }
+    .section-text p{
+        font-size: 1rem;
+        font-weight: 900;
+    }
+
+    .div-impacta{   
+        justify-content: center; 
+        align-items: center;
+    }
+    .div-impacta h2{
+        justify-content: center;
+        align-items: center;
+        padding-left: 9rem;
+        font-size: 3.5rem;
+    }
+
+    .section-tipos-servicios{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .section-tipos-servicios h2{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+
+    .img-servicios{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .img-servicios img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .creacion-contenido{
+        padding: 0.5rem;
+    }
+    
+    .creacion-contenido h3{
+        font-size: 3rem;
+    }
+    .creacion-contenido h4{
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .creacion-contenido-parrafo{
+        font-size: 1.5rem;
+        align-items: center;
+    }
+
+    .text-section{
+        align-items: start;
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+
+    .secction-h2-sv h2{
+        padding: 1rem;
+        font-size: 5rem;
+    }
+
+    .acordeon-conenido{
+        font-size: 1rem;
+    }
+    /*TERMINA SERVICIOS*/
+
+    /*COMIENZA CONTACTO*/
+    .section-contacto-h1{
+        padding: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-contacto-h1 div h1{
+        font-size: 4rem;
+    }
+    .section-contacto-h1 div p{
+        font-size: 1.5rem;
+    }
+
+    .contacto img{
+        position: hidden;
+    }
+
+    .form-section{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .main-column{
+        flex-direction: column-reverse;
+    }
+
+    .form-section label{
+        font-size: 1.5rem;
+    }
+    
+    .form-section-input{
+        width: 100%;
+        height: 2rem;
+        border-bottom: solid 5px white;
+        background-color: #000000;
+        color: white;
+    }
+
+    .enviar-contacto{
+        background-color: #c46137;
+        font-size: 1.5rem;
+        padding-right: 0rem;
+        border-color: var(--color-primario);
+    }
+
+    .enviar-contacto:hover{
+        border: solid 2px --color-secundario;
+    }
+    .p-contacto{
+        padding: 3rem;
+        font-size: 1.6rem;
+    }
+
+    .p-contacto img{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
+
+
