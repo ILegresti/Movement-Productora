@@ -972,6 +972,7 @@ list-style-type: none;
     }
     .section-contacto-h1 div p{
         font-size: 1.5rem;
+        justify-content: center;
     }
 
     .contacto img{
@@ -1009,6 +1010,7 @@ list-style-type: none;
         border: solid 2px --color-secundario;
     }
     .p-contacto{
+        justify-content: center;
         padding: 3rem;
         font-size: 1.6rem;
     }
