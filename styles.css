@@ -817,20 +817,22 @@ list-style-type: none;
         height: 50vh;
     
     }
-    
-    
-    
     .contenedor-fotos{
         flex-direction: column;
-        padding-left: 2rem;
+        padding-left: 0rem;
         
     }
     
     .contenedor-fotos div img:first-child{
-        padding: 1rem;
+        padding: 2rem;
         width: 100%;
-        height: 100%;
     }
+
+    .div-center{
+        justify-content: center;
+        align-items: center;
+    }
+
 
 
     .btn-contratanos{
