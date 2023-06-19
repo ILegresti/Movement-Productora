@@ -586,7 +586,7 @@ list-style-type: none;
     .contenedor-presentacion img{
         width: 80%;
         border-radius: 5px;
-        height: 70vh;
+        height: 90vh;
     
     }
     
@@ -701,7 +701,9 @@ list-style-type: none;
 
     /*COMIENZA CONTACTO*/
     .section-contacto-h1{
-        padding-left: 2rem;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
     
     }
     
@@ -876,6 +878,11 @@ list-style-type: none;
     .section-conocenos p{
         font-size: 1rem;
     }
+
+    .section-conocenos div p br{
+        display: none;
+
+    }
     /*TERMINA CONOCENOS*/
 
     /*COMIENZA SERVICIOS*/
@@ -928,7 +935,8 @@ list-style-type: none;
     }
 
     .creacion-contenido{
-        padding: 0.5rem;
+        padding: 2rem;
+        justify-content: center;
     }
     
     .creacion-contenido h3{
@@ -950,10 +958,17 @@ list-style-type: none;
         padding-left: 1rem;
     }
 
+    .secction-h2-sv{
+        justify-content: center;
+        align-items: center;
+    }
+
     .secction-h2-sv h2{
         padding: 1rem;
-        font-size: 5rem;
+        font-size: 3rem;
+        color: var(--color-secundario);
     }
+   
 
     .acordeon-conenido{
         font-size: 1rem;
@@ -1018,13 +1033,6 @@ list-style-type: none;
     .p-contacto img{
         display: none;
     }
-
-
-
-
-
-
-
 
 }
 
