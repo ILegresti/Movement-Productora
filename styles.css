@@ -110,9 +110,9 @@
 
 
 .contenedor-presentacion img{
-    width: 50%;
+    width: 100%;
     border-radius: 5px;
-    height: 100vh;
+    height: 80vh;
 
 }
 
@@ -557,6 +557,15 @@ list-style-type: none;
     color: var(--color-primario);
 }
 
+.h2-para-vos{
+    font-family: var(--fuente-bodoni);
+    color: white;
+}
+
+.h2-para-vos h1{
+    font-size: 6rem;
+}
+
 
 /* MEDIA QUERYS */
 
@@ -777,6 +786,7 @@ list-style-type: none;
 
 
 
+
 }
 
 
@@ -961,16 +971,7 @@ list-style-type: none;
         padding-left: 1rem;
     }
 
-    .secction-h2-sv{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .secction-h2-sv h2{
-        padding: 1rem;
-        font-size: 3rem;
-        color: var(--color-secundario);
-    }
+    
    
 
     .acordeon-conenido{
@@ -1002,7 +1003,7 @@ list-style-type: none;
         padding: 1rem;
     }
     .main-column{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .form-section label{
@@ -1035,6 +1036,10 @@ list-style-type: none;
 
     .p-contacto img{
         display: none;
+    }
+
+    .h2-para-vos h1{
+        font-size: 3rem;
     }
 
 }
