@@ -36,8 +36,6 @@
     color: white;
 
 }
-
-
 .tamanio-nav a{
     color: azure;
 }
@@ -45,7 +43,6 @@
     color: var(--color-secundario);
     border-bottom: solid 2px var(--color-primario);
 }
-
 .color-movement-nav{
     color: var(--color-secundario);
     text-decoration: none;
@@ -82,7 +79,6 @@
     font-weight: 600;
     margin: 0;
 }
-
 .hero-img{
     position: static;
 
@@ -94,9 +90,6 @@
     letter-spacing: 10px;
     margin-bottom: 0;
 }
-
-
-
 .contenedor-presentacion{
     display: flex;
     align-items: center;
@@ -107,18 +100,12 @@
     font-family: var(--fuente-montserrat);
     gap: 3rem;
 }
-
-
 .contenedor-presentacion img{
     width: 100%;
     border-radius: 5px;
     height: 80vh;
 
 }
-
-
-
-
 
 .contenedor-fotos{
     display: flex;
@@ -127,25 +114,20 @@
     
 }
 
-
 .img1{
     border-radius: 10px;
 }
-
-
 .contenedor-fotos div:first-child{
     border-radius: 5px;
     width: 100%;
     height: 100%;
 }
-
 .contenedor-fotos div img:first-child{
     padding: 2rem;
     width: 100%;
     height: 100%;
     padding-left: 4rem;
 }
-
 .contenedor-fotos div img:nth-child(2){
     width: 60vh;
     height: 100%;
@@ -163,9 +145,6 @@
     
 }
 
-
-
-
 .h1-servicios{
     color:  white;
     justify-content: center;
@@ -180,7 +159,6 @@
 .h1-servicios h1{
     font-size: 10rem;
 }
-
 
 .section-text{
     color: white;
@@ -247,7 +225,6 @@
     font-weight: 50;
 }
 
-
 .section-text-left{
     display: flex;
     justify-content: end;
@@ -267,8 +244,6 @@
     text-transform: uppercase;
 }
 
-
-
 .section-tipos-servicios{
     color: var(--color-secundario);
     display: flex;
@@ -278,13 +253,10 @@
 
 .section-tipos-servicios h2{
     font-size: 3rem;
-    font-family: var(--fuente-bodoni);
-    font-weight: 800;
+    font-family: var(--fuente-bodoni-italic);
+    font-weight: 500;
 }
-
-
 /*aca termina */
-
 
 /*estilos de textos de debajo de las imagenes de servicios*/
 .text-section{
@@ -303,7 +275,6 @@ list-style-type: none;
 
 /*aca termina */
 
-
 /*estilos de las imagenes de servicios*/
 .img-servicios{
     display: flex;
@@ -318,9 +289,7 @@ list-style-type: none;
     border-radius: 5px;
 }
 
-
 /*cierra*/
-
 
 /*desde abajo de las fotos hasta fin de servicios*/
 .section-bg{
@@ -385,11 +354,6 @@ list-style-type: none;
 
 /*desde abajo de las fotos hasta fin de servicios*/
 
-
-
-
-
-
 /*CONOCENOS*/
 .section-conocenos{
     padding: 4rem;
@@ -410,9 +374,6 @@ list-style-type: none;
     font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
 }
-
-
-
 /*cierra conocemos*/
 
 /*BOTON CONTRATANOS*/
@@ -434,12 +395,6 @@ list-style-type: none;
 }
 
 /*BOTON CONTRATANOS*/
-
-
-
-
-
-
 
 .footer{
     display: flex;
@@ -485,17 +440,10 @@ list-style-type: none;
 
 }
 
-
-
-
-
 .contacto img{
     width: 100%;
     height: 100vh;
 }
-
-
-
 
 .form-section{
     flex-direction: column;
@@ -538,8 +486,6 @@ list-style-type: none;
     transition: ease ease-in;
 }
 
-
-
 .p-contacto{
     padding-top: 4rem;
     font-size: 3rem;
@@ -551,21 +497,20 @@ list-style-type: none;
 
 }
 
-
 .a-servicios{
     text-decoration: none;
     color: var(--color-primario);
 }
 
-.h2-para-vos{
+.h1-para-vos{
     font-family: var(--fuente-bodoni);
     color: white;
 }
 
-.h2-para-vos h1{
+.h1-para-vos h1{
     font-size: 6rem;
+    text-align: center;
 }
-
 
 /* MEDIA QUERYS */
 
@@ -591,8 +536,7 @@ list-style-type: none;
         flex-direction: column;
         
     }
-    
-    
+
     .contenedor-presentacion img{
         width: 80%;
         border-radius: 5px;
@@ -600,8 +544,7 @@ list-style-type: none;
     
     }
     
-    
-    
+
     .contenedor-fotos{
         flex-direction: column;
         padding-left: 9rem;
@@ -707,6 +650,9 @@ list-style-type: none;
     .acordeon-conenido{
         font-size: 1.5rem;
     }
+    .bg-servicios{
+        background-image: url(img/mobile-bg.jpg);
+    }
     /*TERMINA SERVICIOS*/
 
     /*COMIENZA CONTACTO*/
@@ -776,16 +722,11 @@ list-style-type: none;
         width: 100%;
     }
 
-
     /*TERMINA CONTACTO*/
     .nav-item-center{
         justify-content: center;
         align-items: center;
     }
-
-
-
-
 
 }
 
@@ -806,9 +747,7 @@ list-style-type: none;
     .contenedor h1{
         font-size: 2.5rem;
     }
-    
-    
-    
+       
     .contenedor-presentacion{
         font-size: 1.5rem;
         flex-direction: column;
@@ -825,7 +764,7 @@ list-style-type: none;
     .contenedor-presentacion img{
         width: 90%;
         padding-left: 0rem;
-        height: 75vh;
+        height: 60vh;
     
     }
     .contenedor-fotos{
@@ -845,7 +784,6 @@ list-style-type: none;
     }
 
 
-
     .btn-contratanos{
         padding: 1rem;
     }
@@ -856,23 +794,24 @@ list-style-type: none;
     }
     .footer{
         justify-content: center;
-        padding: 1rem;
+        padding: 0.5rem;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
     }
     /*TERMINA HOME*/
     /*comienza footer*/
+    .footer div img{
+        width: 3vh;
+    }
 
     .footer div a{
-        font-size: 1rem;
+        font-size: 0.7rem;
         
     }
     
     .footer div{
-        font-size: 0.85rem;
-        
-    
+        font-size: 0.7rem;
     }
 
     /*termina footer*/
@@ -892,10 +831,10 @@ list-style-type: none;
         font-size: 1rem;
     }
 
-    .section-conocenos div p br{
+    /* .section-conocenos div p br{
         display: none;
 
-    }
+    } */
     /*TERMINA CONOCENOS*/
 
     /*COMIENZA SERVICIOS*/
@@ -953,11 +892,11 @@ list-style-type: none;
     }
     
     .creacion-contenido h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .creacion-contenido h4{
         color: white;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .creacion-contenido-parrafo{
@@ -972,8 +911,6 @@ list-style-type: none;
     }
 
     
-   
-
     .acordeon-conenido{
         font-size: 1rem;
     }
@@ -1038,10 +975,13 @@ list-style-type: none;
         display: none;
     }
 
-    .h2-para-vos h1{
+    .h1-para-vos h1{
         font-size: 3rem;
     }
 
+    .bg-servicios{
+        background-image: url(img/mobile-bg.jpg);
+        background-size: contain;
+    }
+
 }
-
-
