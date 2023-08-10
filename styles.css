@@ -96,7 +96,7 @@
     padding-top: 6rem;
     padding-left: 4rem;
     color: var(--color-primario);
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: var(--fuente-montserrat);
     gap: 3rem;
 }
@@ -145,19 +145,21 @@
     
 }
 
+#servicios-main div h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .h1-servicios{
     color:  white;
-    justify-content: center;
     font-family: var(--fuente-bodoni);
     font-style: italic;
-    display: flex;
-    padding-top: 6rem;
-    padding-bottom: 5rem;
     font-weight: 100;
 }
 
 .h1-servicios h1{
-    font-size: 10rem;
+    font-size: 9rem; 
 }
 
 .section-text{
@@ -171,11 +173,11 @@
 
 .section-text ul li{
     list-style-type: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .section-text p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .section-text div{
@@ -235,7 +237,7 @@
 
 
 .section-text-left p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
     color: white;
 }
@@ -252,7 +254,7 @@
 }
 
 .section-tipos-servicios h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: var(--fuente-bodoni-italic);
     font-weight: 500;
 }
@@ -263,7 +265,7 @@
     display: flex;
     justify-content: start;
     flex-direction: column;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     padding-left: 2rem;
     font-family: var(--fuente-montserrat);
@@ -340,7 +342,7 @@ list-style-type: none;
 }
 
 .acordeon-conenido{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: var(--fuente-montserrat);
 }
 
@@ -371,7 +373,7 @@ list-style-type: none;
 }
 
 .section-conocenos p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: var(--fuente-montserrat);
 }
 /*cierra conocemos*/
@@ -488,7 +490,7 @@ list-style-type: none;
 
 .p-contacto{
     padding-top: 4rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--color-primario);
     font-family: var(--fuente-montserrat);
     flex-direction: column;
@@ -511,6 +513,12 @@ list-style-type: none;
     font-size: 6rem;
     text-align: center;
 }
+
+
+#servicios-main{
+    flex-direction: column;
+}
+
 
 /* MEDIA QUERYS */
 
@@ -749,7 +757,7 @@ list-style-type: none;
     }
        
     .contenedor-presentacion{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         flex-direction: column;
         padding-left: 0.5rem;
         
@@ -980,8 +988,14 @@ list-style-type: none;
     }
 
     .bg-servicios{
+        background-color: #000000;
+        background-image: none;
+    }
+
+    #servicios-main{
         background-image: url(img/mobile-bg.jpg);
-        background-size: contain;
+        background-position: center;
+        background-size: cover;
     }
 
 }
