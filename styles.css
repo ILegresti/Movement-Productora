@@ -369,6 +369,7 @@ list-style-type: none;
 .section-conocenos h1{
     font-size: 8rem;
     font-family: var(--fuente-bodoni);
+    margin: 2rem;
 
 }
 
@@ -376,6 +377,15 @@ list-style-type: none;
     font-size: 1.3rem;
     font-family: var(--fuente-montserrat);
 }
+
+#div-conocenos{
+    background-image: url(img/valen-delfi.jpeg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 /*cierra conocemos*/
 
 /*BOTON CONTRATANOS*/
