@@ -302,6 +302,17 @@ list-style-type: none;
 .section-bg{
     background-color: #000000;
 }
+.bg-ropa{
+    background-image: url(img/bg-ropa-h.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-creacion{
+    background-image: url(img/bg-creacion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .creacion-contenido{
     display: flex;
     justify-content: end;
@@ -1012,6 +1023,18 @@ list-style-type: none;
         background-image: url(img/mobile-bg.jpg);
         background-position: center;
         background-size: cover;
+    }
+
+    .bg-creacion{
+        background-image: url(img/bg-creacion2.png);
+        background-position: center;
+        background-size: auto;
+    }
+
+    .bg-ropa{
+        background-image: url(img/bg-ropa-v.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
 }
